@@ -1,0 +1,21 @@
+{
+    "name": "handsome/tree",
+    "description": "This is a tree.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "handsome",
+            "email": "273769453@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tree\\": "src"
+        }
+    }
+}
